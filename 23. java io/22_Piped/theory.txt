@@ -1,0 +1,2 @@
+. Pipe used to connect to threads into main method.
+. through PipedInputStream and PipedOutputStream class you can take input from the file and give output to the file also.

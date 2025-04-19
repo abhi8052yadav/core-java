@@ -1,0 +1,18 @@
+1. if you want to run the code from terminal then run this command - type filename.txt
+2. here in this if you are giving only file name with same 
+    extenxion then it will created in same folder, if you
+    want to create the file in different folder then provide
+    the path of the folder to create the file .
+3. object.write(byte[] b) :- it takes the input one one character 
+    and converts into an array of byte.also it write into the given 
+    file , byte by byte.
+4. .write(byte[] b, int off,int length) :- it will only read the bytes 
+    from the given off to the length(in this give the length - off then it will take 
+    the last index).
+5. string.getBytes() :- converts the string into byte array.
+
+            218. FileInputSream and FileReader
+
+1. to read the data from a file first take the data
+    into a byte array for it 
+    byte b[] 

@@ -1,0 +1,9 @@
+. there are two types of accessing the data from a resource 
+                  . SequenceAccessFile
+                  . RandomAccessFile
+. both are used to read and write int the given file.
+. you can give mode in which you want to access the file.
+. to learn these things learn from book.
+
+and when you start practicing it then you will learn each thing. 
+hence just practice.

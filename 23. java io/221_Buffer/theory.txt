@@ -1,0 +1,14 @@
+BufferInputStream doesn't attach with a file it attaches with any fileInputStream obj to monitor
+if any late is happening in fetching the data.
+
+it will first stores the data from the fileinputstream then for other parts it waits when the all parts 
+are fetched then it will shows the value.
+
+buffer stores the data for temporary.
+
+it is used to run the program smoothly in which file input stream is present.
+
+but if you are giving the data from the program to any other file i.e. output stream 
+then buffer first will be attached with the data present in the program then it will attached with fileOutputSteam then this output stream will be
+attached with the file to write the data.
+

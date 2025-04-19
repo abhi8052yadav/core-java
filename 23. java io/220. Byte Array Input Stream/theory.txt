@@ -1,0 +1,10 @@
+In this we are going to take the input from an character array. in previous we were taking input from a file and also giving input into a file.
+
+
+in the code ByteArrayInputStream is a object which will read the bytes from the given byte array it can be a chacracter or  a number.
+through x it will read one-one by one element.
+-1 value represents the end of the byte array.
+
+Now to read all the bytes values at one time, we have to use this method:- bis.readAllBytes()
+            .it will read all the bytes at one time and return a byte array also but you can save it into a string combinly.
+
