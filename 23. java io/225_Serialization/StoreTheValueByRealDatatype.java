@@ -7,6 +7,7 @@ In the DataOutputStream class (it's constructor takes the object reference of fi
 */
 class Student {
   int rollno;
+  float avg;
   String name;
   String dept;
 }
@@ -21,17 +22,20 @@ public class StoreTheValueByRealDatatype {
         //now create the object of the student.
         Student s = new Student();
         s.rollno = 1;
+        s.avg = 80.5f;
         s.name = "Abhishek";
         s.dept = "cse";
 
         //now through following these methods you can write your data into the file as their own form of datatype
 
         dos.writeInt(s.rollno);
+        dos.writeFloat(s.avg);
         dos.writeUTF(s.name);
         dos.writeUTF(s.dept);
+        //the data now which will be present inside the practice.txt file you can not read because it is a binary file it is present in it's own form.
 
         
-        fos.close();
         dos.close();
+        fos.close();
     }
 }
